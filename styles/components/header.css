@@ -2,6 +2,8 @@ header {
     background: linear-gradient(92.51deg, #14244C 0.48%, #459AFE 100%);
     width: 100vw;
     margin-left: calc((100vw - 1440px) / -2);
+    position: relative;
+    overflow: hidden;
 }
 
 header .header-inner {
@@ -59,4 +61,14 @@ header .header-inner .header-info .languages .language {
 
 header .header-inner .header-info .languages .language.active {
     font-weight: bold;
+}
+
+.container-top-ellipsis {
+    background: #1C1C1C;
+    border-radius: 100% 100% 0 0;
+    width: 140vw;
+    height: 380px;
+    left: -20vw;
+    position: absolute;
+    bottom: -250px;
 }

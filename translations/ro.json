@@ -5,6 +5,40 @@
     "faq": "FAQ",
     "contacts": "Contacte"
   },
+  "topScreen": {
+    "title1": "Landing Page",
+    "title2": "Sample pentru practică",
+    "subtitle": "Un design bun nu este doar plăcut din punct de vedere estetic, ci și funcțional.",
+    "buttonLabel": "AFLĂ MAI MULT"
+  },
+  "characteristics": {
+    "title": "Casete de caracteristici",
+    "subtitle": "Un design bun nu este doar plăcut din punct de vedere estetic, ci și funcțional. Ar trebui să poată rezolva problema clientului.",
+    "element1": {
+      "title": "Complet customizabil",
+      "subtitle": "Un design bun nu este doar plăcut din punct de vedere estetic, ci și funcțional."
+    },
+    "element2": {
+      "title": "Corect structurat",
+      "subtitle": "Un design bun nu este doar plăcut din punct de vedere estetic, ci și funcțional."
+    },
+    "element3": {
+      "title": "Arhitectura",
+      "subtitle": "Un design bun nu este doar plăcut din punct de vedere estetic, ci și funcțional."
+    },
+    "element4": {
+      "title": "Informativ",
+      "subtitle": "Un design bun nu este doar plăcut din punct de vedere estetic, ci și funcțional."
+    },
+    "element5": {
+      "title": "UI/UX",
+      "subtitle": "Un design bun nu este doar plăcut din punct de vedere estetic, ci și funcțional."
+    },
+    "element6": {
+      "title": "Responsive design",
+      "subtitle": "Un design bun nu este doar plăcut din punct de vedere estetic, ci și funcțional."
+    }
+  },
   "share": "Distribuie",
   "copyright": "Toate drepturile rezervate Naqqa"
 }

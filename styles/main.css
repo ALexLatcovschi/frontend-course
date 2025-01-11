@@ -1,12 +1,38 @@
 @import url("components/header.css");
+@import url("components/top-screen.css");
 @import url("components/footer.css");
+@import url("components/characteristics.css");
 
 body {
     margin: 0;
     font-family: 'Poppins', 'Roboto', sans-serif;
+    background: #1C1C1C;
+    overflow-x: hidden;
 }
 
 .page-container {
     max-width: 1440px;
     margin: auto;
+}
+
+.main-container {
+    background: #1C1C1C;
+}
+
+.main-button button {
+    background: linear-gradient(92.51deg, #14244C 0.48%, #459AFE 100%);
+    box-shadow: 4px 4px 10px 0px #00000059;
+    padding: 12px 30px;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.main-button button:hover {
+    box-shadow: 0px 0px 4px #ffffff60;
 }

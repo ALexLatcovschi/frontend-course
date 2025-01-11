@@ -2,6 +2,7 @@
 @import url("components/top-screen.css");
 @import url("components/footer.css");
 @import url("components/characteristics.css");
+@import url("components/expertise.css");
 
 body {
     margin: 0;

@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadComponent('top-screen', '/components/top-screen.html');
     await loadComponent('footer', '/components/footer.html');
     await loadComponent('characteristics', '/components/characteristics.html');
+    await loadComponent('expertise', '/components/expertise.html');
 
     document.getElementById('year').textContent = new Date().getFullYear();
 

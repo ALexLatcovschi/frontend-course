@@ -43,6 +43,10 @@
     "title": "Suntem aici pentru a vă ghida și ajuta în orice moment",
     "subtitle": "Un design bun nu este doar plăcut din punct de vedere estetic, ci și funcțional."
   },
+  "reviews": {
+    "title": "Ce spun clienții despre noi",
+    "reviewContent": "Designerii trebuie să aibă o înțelegere puternică a principiilor designului pentru a crea soluții eficiente. De asemenea, trebuie să fie conștienți de cele mai recente tendințe și tehnologii, astfel încât să poată rămâne în fruntea curbei."
+  },
   "share": "Distribuie",
   "copyright": "Toate drepturile rezervate Naqqa"
 }

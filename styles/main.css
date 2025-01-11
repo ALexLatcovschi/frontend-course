@@ -3,6 +3,7 @@
 @import url("components/footer.css");
 @import url("components/characteristics.css");
 @import url("components/expertise.css");
+@import url("components/reviews.css");
 
 body {
     margin: 0;

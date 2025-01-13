@@ -8,6 +8,7 @@
 @import url("components/map.css");
 @import url("components/try-now.css");
 @import url("components/faq.css");
+@import url("components/contact-form.css");
 
 @keyframes MoveInCircleReversed {
     0% {

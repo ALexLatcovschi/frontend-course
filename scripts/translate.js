@@ -23,6 +23,18 @@ function applyTranslations(translations) {
             element.textContent = value;
         }
     });
+
+    // translate form placeholders
+    document.querySelectorAll('#contacts-data-form [placeholder]').forEach((element) => {
+        const key = element.getAttribute('placeholder');
+
+        if (key) {
+            const value = getNestedValue(translations, key);
+            if (value) {
+                element.placeholder = value;
+            }
+        }
+    });
 }
 
 async function setLanguage(language) {

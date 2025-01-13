@@ -13,12 +13,20 @@
     position: relative;
 }
 
-.contacts .details .contacts-title {
+.contacts .contacts-title {
     font-size: 30px;
     line-height: 30px;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 25px;
+}
+
+.contacts .contacts-subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    max-width: 70%;
 }
 
 .contacts .details .contact {

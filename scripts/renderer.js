@@ -27,6 +27,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadComponent('faq', '/components/faq.html');
     renderFAQ();
     await loadComponent('contacts', '/components/contacts.html');
+    await loadComponent('contact-form', '/components/contact-form.html');
+    initForm();
     await loadComponent('map', '/components/map.html');
 
     document.getElementById('year').textContent = new Date().getFullYear();

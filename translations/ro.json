@@ -53,7 +53,17 @@
     "addressInfo": "Bulevardul Ștefan cel Mare și Sfînt 105, MD-2073, Chișinău",
     "phoneLabel": "Tel.",
     "emailLabel": "Email",
-    "followLabel": "Dă-ne un follow pe"
+    "followLabel": "Dă-ne un follow pe",
+    "formTitle": "Luați legătura",
+    "formSubtitle": "Ți-au rămas si alte intrebari? Nu ezita să ne contactezi pentru a primi răspunsuri.",
+    "formName": "Nume",
+    "formEmail": "Email",
+    "formMessage": "Mesaj",
+    "formAction": "CONTACTEAZĂ-NE",
+    "errors": {
+      "nameError": "Numele este obligatoriu și trebuie să aibă cel puțin 3 caractere.",
+      "emailError": "Vă rugăm să introduceți o adresă de email validă."
+    }
   },
   "tryNow": {
     "label": "Arzi de nerabdare să înveți ceva nou?",

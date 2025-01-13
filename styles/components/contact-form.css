@@ -1,0 +1,40 @@
+#contacts-data-form .form-group .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+#contacts-data-form .form-group input,
+#contacts-data-form .form-group textarea {
+    padding: 20px 28px;
+    box-shadow: -3px -3px 7px 0px #FFFFFF0D inset;
+    box-shadow: 5px 5px 15px 0px #00000033 inset;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    width: calc(100% - 100px);
+    background: #1C1C1C;
+    border: none;
+}
+
+#contacts-data-form .form-group input::placeholder,
+#contacts-data-form .form-group textarea::placeholder {
+    font-size: 14px;
+    line-height: 20px;
+    color: #9E9E9E;
+}
+
+#contacts-data-form .form-group input:focus-within,
+#contacts-data-form .form-group textarea:focus-within {
+    outline: none;
+}
+
+#contacts-data-form .form-group textarea {
+    height: 152px;
+    resize: none;
+}

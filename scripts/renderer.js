@@ -23,8 +23,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadComponent('expertise', '/components/expertise.html');
     await loadComponent('reviews', '/components/reviews.html');
     loadReviews();
+    await loadComponent('contacts', '/components/contacts.html');
+    await loadComponent('map', '/components/map.html');
 
     document.getElementById('year').textContent = new Date().getFullYear();
 
     await initTranslation();
+
+    loadMap()
 });

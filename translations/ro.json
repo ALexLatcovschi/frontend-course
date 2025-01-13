@@ -47,6 +47,14 @@
     "title": "Ce spun clienții despre noi",
     "reviewContent": "Designerii trebuie să aibă o înțelegere puternică a principiilor designului pentru a crea soluții eficiente. De asemenea, trebuie să fie conștienți de cele mai recente tendințe și tehnologii, astfel încât să poată rămâne în fruntea curbei."
   },
+  "contacts": {
+    "detailTitle": "Contacte",
+    "addressLabel": "Adresa",
+    "addressInfo": "Bulevardul Ștefan cel Mare și Sfînt 105, MD-2073, Chișinău",
+    "phoneLabel": "Tel.",
+    "emailLabel": "Email",
+    "followLabel": "Dă-ne un follow pe"
+  },
   "share": "Distribuie",
   "copyright": "Toate drepturile rezervate Naqqa"
 }

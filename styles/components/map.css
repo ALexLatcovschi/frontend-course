@@ -1,0 +1,10 @@
+#map-container {
+    height: 552px;
+    width: 100vw;
+    margin-left: calc((100vw - 1440px) / -2);
+    margin-top: 50px;
+}
+
+#map-container .leaflet-marker-icon {
+    width: auto!important;
+}

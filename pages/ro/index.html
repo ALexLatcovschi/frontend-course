@@ -8,18 +8,20 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap&subset=latin,cyrillic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap&subset=latin,cyrillic"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap&subset=cyrillic"
+          rel="stylesheet">
 
     <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 
     <!-- Leaflet JavaScript -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
     <script src="/scripts/translate.js"></script>
     <script src="/scripts/renderer.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 
     <script src="/scripts/map.js"></script>
 </head>
@@ -31,6 +33,34 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="/scripts/reviews.js"></script>
 <script src="/scripts/faq.js"></script>
-<script src="/scripts/contact-form.js"></script>
 <script src="/scripts/social-share.js"></script>
+
+<script type="module">
+    import {initializeApp} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+    import {getDatabase, ref, push} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyDhScAVrd1BRKGn8q-h4vkK1NwQXQ6rfnA",
+        authDomain: "course-sample-7e9ca.firebaseapp.com",
+        projectId: "course-sample-7e9ca",
+        storageBucket: "course-sample-7e9ca.firebasestorage.app",
+        messagingSenderId: "374596065642",
+        appId: "1:374596065642:web:16222d6030799ca086ed13"
+    };
+
+    const firebaseApp = initializeApp(firebaseConfig);
+    const database = getDatabase(firebaseApp);
+
+    window.saveData = (payload, form) => {
+        const dataRef = ref(database, 'contacts');
+        push(dataRef, payload)
+            .then(() => {
+                form.reset();
+                toastr.success('Success!', 'Success');
+            })
+            .catch((error) => toastr.error('Error!', 'Error'));
+    };
+</script>
+
+<script src="/scripts/contact-form.js"></script>
 </html>

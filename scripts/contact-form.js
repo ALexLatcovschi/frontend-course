@@ -50,9 +50,7 @@ function setSubmitAction(fields) {
                 message: form.elements['message'].value
             }
 
-            // save data in firebase
-            console.log('form value', payload)
-            form.reset();
+            saveData(payload, form);
         }
     });
 }

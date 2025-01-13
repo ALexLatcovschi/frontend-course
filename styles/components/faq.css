@@ -1,0 +1,77 @@
+.faq {
+    margin-top: 100px;
+}
+
+.faq .title {
+    margin-bottom: 60px;
+    font-size: 50px;
+    line-height: 65px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.faq .accordion-item {
+    padding: 20px 30px;
+    border: 1px solid #FFFFFF33;
+    border-radius: 12px;
+    cursor: pointer;
+    flex: 1 1 calc(50% - 50px);
+    max-width: calc(50% - 88px);
+    height: fit-content;
+}
+
+.faq #faq-box {
+    display: flex;
+    flex-flow: wrap;
+    gap: 30px 50px;
+}
+
+.faq .accordion-item .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq .accordion-item .accordion-header .accordion-title {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.faq .accordion-item .expanded {
+    display: none;
+}
+
+.faq .accordion-item .content-inner {
+    border-top: 1px solid #FFFFFF33;
+}
+
+.faq .accordion-item .accordion-content {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF80;
+}
+
+.faq .accordion-item .content-inner {
+    display: none;
+}
+
+.faq .accordion-item .content-inner.active {
+    display: block;
+}
+
+.faq .accordion-item .accordion-header.active {
+    padding-bottom: 20px;
+}
+
+.faq .accordion-item .accordion-header.active .hidden {
+    display: none;
+}
+
+.faq .accordion-item .accordion-header.active .expanded {
+    display: block;
+}

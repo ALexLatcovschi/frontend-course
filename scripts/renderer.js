@@ -23,6 +23,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadComponent('expertise', '/components/expertise.html');
     await loadComponent('reviews', '/components/reviews.html');
     loadReviews();
+    await loadComponent('try-now', '/components/try-now.html');
+    await loadComponent('faq', '/components/faq.html');
+    renderFAQ();
     await loadComponent('contacts', '/components/contacts.html');
     await loadComponent('map', '/components/map.html');
 

@@ -6,6 +6,8 @@
 @import url("components/reviews.css");
 @import url("components/contacts.css");
 @import url("components/map.css");
+@import url("components/try-now.css");
+@import url("components/faq.css");
 
 @keyframes MoveInCircleReversed {
     0% {
@@ -55,6 +57,22 @@ body {
     cursor: pointer;
 }
 
-.main-button button:hover {
+.main-button button:hover,
+.secondary-button button:hover{
     box-shadow: 0px 0px 4px #ffffff60;
+}
+
+.secondary-button button {
+    background: #1c1c1c;
+    box-shadow: 4px 4px 10px 0px #000000B2;
+    padding: 12px 30px;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
 }

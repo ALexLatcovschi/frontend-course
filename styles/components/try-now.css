@@ -1,0 +1,39 @@
+.try-now {
+    margin-top: 100px;
+    display: flex;
+    background: linear-gradient(95.13deg, #14244C 9.07%, #459AFE 100%);
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.try-now .left-child,
+.try-now .right-child {
+    width: 50%;
+}
+
+.try-now .left-child {
+    padding: 90px 0 90px 80px;
+}
+
+.try-now .label {
+    font-size: 20px;
+    line-height: 32px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.try-now .title {
+    font-size: 40px;
+    line-height: 55px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.try-now .right-child {
+    background-image: url("/assets/images/try-now-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

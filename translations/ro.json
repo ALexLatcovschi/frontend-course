@@ -55,6 +55,26 @@
     "emailLabel": "Email",
     "followLabel": "Dă-ne un follow pe"
   },
+  "tryNow": {
+    "label": "Arzi de nerabdare să înveți ceva nou?",
+    "title": "Mereu experimentați și  încercați noi tehnologii",
+    "buttonLabel": "ÎNCEPE ACUM"
+  },
+  "faq": {
+    "title": "Întrebări frecvente",
+    "label1": "Care este scopul acestui landing?",
+    "answer1": "Această landing este conceput pentru a informa vizitatorii despre produsul nostru și pentru a-i încuraja să întreprindă o acțiune, cum ar fi abonarea, achiziționarea sau contactarea noastră.",
+    "label2": "Cum mă pot înscrie pentru serviciu?",
+    "answer2": "Pentru a te înscrie, apasă pe butonul „Înscriere”, completează formularul de înregistrare și trimite detaliile tale.",
+    "label3": "Ce beneficii primesc la abonare?",
+    "answer3": "Abonații vor avea acces la conținut exclusiv, oferte speciale și actualizări timpurii despre noi caracteristici sau produse.",
+    "label4": "Există un trial gratuit disponibil?",
+    "answer4": "Da, oferim un trial gratuit de 7 zile pentru a explora toate funcționalitățile înainte de a te abona.",
+    "label5": "Pot să anulez abonamentul oricând?",
+    "answer5": "Da, poți anula abonamentul oricând din setările contului tău, iar pentru ciclul de facturare următor nu vei mai fi taxat.",
+    "label6": "Cât de sigură este informația mea personală?",
+    "answer6": "Privim confidențialitatea ta cu mare seriozitate. Toate informațiile personale sunt stocate într-un mod sigur și criptat pentru a-ți asigura protecția."
+  },
   "share": "Distribuie",
   "copyright": "Toate drepturile rezervate Naqqa"
 }

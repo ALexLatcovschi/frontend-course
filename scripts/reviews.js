@@ -71,7 +71,7 @@ function loadReviews() {
                             </div>
                         </div>
             `;
-        }).join();
+        }).join("");
     }
     ;
 

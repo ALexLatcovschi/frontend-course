@@ -137,3 +137,35 @@
 @keyframes rotationsReverse {
     to { transform: rotate(-360deg) }
 }
+
+@media (max-width: 991px) {
+    .expertise {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .expertise .right-child,
+    .expertise .left-child {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .expertise .left-child {
+        transform: scale(0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+    }
+
+    .expertise .right-child .title,
+    .expertise .right-child .subtitle {
+        padding-left: 0;
+    }
+
+    .expertise .right-child .title {
+        line-height: 36px;
+    }
+}

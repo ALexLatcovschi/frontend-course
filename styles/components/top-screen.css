@@ -96,3 +96,19 @@
 .top-screen .section-content .main-button {
     margin: auto;
 }
+
+@media (max-width: 991px) {
+    .top-screen {
+        height: 100%;
+    }
+
+    .top-screen .main-background {
+        padding: 130px 40px 4px 40px;
+    }
+
+    .top-screen .section-content .title1,
+    .top-screen .section-content .title2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+}

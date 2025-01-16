@@ -37,3 +37,35 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+@media (max-width: 991px) {
+    .try-now {
+        margin-top: 40px;
+    }
+
+    .try-now .right-child {
+        display: none;
+    }
+
+    .try-now .left-child {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .try-now .left-child {
+        padding: 20px;
+    }
+
+    .try-now .label {
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 10px;
+    }
+
+    .try-now .title {
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 10px;
+    }
+}

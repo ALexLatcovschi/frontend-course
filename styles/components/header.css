@@ -41,13 +41,15 @@ header .header-inner .header-info {
     width: 100%;
 }
 
-header .header-inner .header-info .languages .language {
+header .header-inner .header-info .languages .language,
+.bottom-section .languages .language {
     cursor: pointer;
     background: none;
     border: none;
 }
 
-header .header-inner .header-info .languages .language.active {
+header .header-inner .header-info .languages .language.active,
+.bottom-section .languages .language.active {
     font-weight: bold;
 }
 
@@ -59,4 +61,203 @@ header .header-inner .header-info .languages .language.active {
     left: -20vw;
     position: absolute;
     bottom: -250px;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+@media (max-width: 1440px) {
+    .header {
+        margin-left: -40px;
+    }
+
+    header .header-inner {
+        padding: 50px 40px 215px;
+    }
+
+    .container-top-ellipsis {
+        width: 100%;
+        left: 0;
+        border-radius: 100% 100% 100% 100%;
+        bottom: -340px;
+        transform: scale(1.5);
+    }
+}
+
+@media (max-width: 991px) {
+    header .header-inner .header-info {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        margin-left: auto;
+    }
+
+    .hamburger-menu .active {
+        display: none;
+    }
+
+    .hamburger-menu .inactive {
+        cursor: pointer;
+    }
+
+    .hamburger-menu.open .active {
+        display: initial;
+    }
+
+    .hamburger-menu.open .inactive {
+        display: none;
+    }
+
+    header .header-inner .logo {
+        z-index: 1000;
+    }
+
+    .hamburger-menu .active .close-btn {
+        z-index: 1000;
+        position: relative;
+    }
+
+    .mobile-menu {
+        background: #1C1C1C;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        display: grid;
+        justify-content: center;
+    }
+
+    .mobile-menu .top-section ul {
+        list-style: none;
+        padding-top: 130px;
+        padding-left: 0;
+    }
+
+    .mobile-menu .top-section ul li {
+        margin-bottom: 25px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .mobile-menu .top-section ul li a {
+        text-decoration: none;
+    }
+
+    .bottom-section {
+        text-align: center;
+    }
+
+    .bottom-section .contact {
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+
+    .bottom-section .contact .label {
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .bottom-section .contact a {
+        color: #ffffff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .bottom-section .contact .social-follow {
+        display: flex;
+        margin-top: 15px;
+        justify-content: center;
+    }
+
+    .bottom-section .contact .social-follow .social {
+        margin-right: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        background: #323232;
+    }
+
+    .bottom-section .contact .social-follow .social:last-child {
+        margin-right: 0;
+    }
+
+    .bottom-section .contact .social-follow .social:hover {
+        box-shadow: 0px 0px 4px #ffffff60;
+    }
+
+    .bottom-section .languages {
+        margin-top: 30px;
+    }
+
+    .mobile-menu .parallax-mobile-1 {
+        position: absolute;
+        z-index: 1;
+        right: 72px;
+        top: 149px;
+        animation: MoveInCircleReversed 30s linear infinite;
+    }
+
+    .mobile-menu .parallax-mobile-1 img {
+        width: 41px;
+    }
+
+    .mobile-menu .parallax-mobile-2 {
+        position: absolute;
+        z-index: 1;
+        left: 43px;
+        top: 30%;
+        animation: MoveInCircleReversed 20s linear infinite;
+    }
+
+    .mobile-menu .parallax-mobile-2 img {
+        width: 72px;
+    }
+
+    .mobile-menu .parallax-mobile-3 {
+        position: absolute;
+        z-index: 1;
+        right: 45px;
+        top: 40%;
+        animation: MoveInCircleReversed 40s linear infinite;
+    }
+
+    .mobile-menu .parallax-mobile-3 img {
+        width: 90px;
+    }
+
+    .mobile-menu .parallax-mobile-4 {
+        position: absolute;
+        z-index: 1;
+        left: 43px;
+        bottom: 104px;
+        animation: MoveInCircleReversed 30s linear infinite;
+    }
+
+    .mobile-menu .parallax-mobile-4 img {
+        width: 41px;
+    }
+
+    .mobile-menu .top-section,
+    .mobile-menu .bottom-section {
+        z-index: 100;
+    }
+}
+
+@media (max-width: 520px) {
+    .header {
+        margin-left: -20px;
+    }
+
+    header .header-inner {
+        padding: 50px 20px 215px;
+    }
 }

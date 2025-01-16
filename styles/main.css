@@ -121,3 +121,31 @@ body {
 #loader.hidden {
     display: none;
 }
+
+@media (max-width: 1440px) {
+    .page-container {
+        max-width: calc(100vw - 80px);
+    }
+}
+
+@media (max-width: 991px) {
+    .section-text {
+        line-height: 20px;
+    }
+
+    .section-title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .main-button button,
+    .secondary-button button{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 520px) {
+    .page-container {
+        max-width: calc(100vw - 40px);
+    }
+}

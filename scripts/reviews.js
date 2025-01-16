@@ -80,11 +80,17 @@ function loadReviews() {
         autoplay: {
             delay: 4000,
         },
-        slidesPerView: 2.5,
-        spaceBetween: 30,
+        slidesPerView: 1,
+        spaceBetween: 20,
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
+        },
+        breakpoints: {
+            767: {
+                slidesPerView: 2.5,
+                spaceBetween: 30,
+            }
         }
     });
 }

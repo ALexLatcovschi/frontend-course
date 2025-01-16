@@ -38,3 +38,13 @@
     height: 152px;
     resize: none;
 }
+
+@media (max-width: 767px) {
+    #contacts-data-form .form-group[class] textarea {
+        height: 152px;
+    }
+
+    .contacts .form {
+        margin-bottom: 40px;
+    }
+}

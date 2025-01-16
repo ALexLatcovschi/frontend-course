@@ -8,3 +8,23 @@
 #map-container .leaflet-marker-icon {
     width: auto!important;
 }
+
+@media (max-width: 1440px) {
+    #map-container {
+        margin-top: 40px;
+        margin-left: -40px;
+    }
+}
+
+@media (max-width: 767px) {
+    #map-container {
+        margin-top: 20px;
+        height: 230px;
+    }
+}
+
+@media (max-width: 520px) {
+    #map-container {
+        margin-left: -20px;
+    }
+}

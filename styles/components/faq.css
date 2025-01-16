@@ -62,3 +62,33 @@
 .faq .accordion-item .accordion-header.active .expanded {
     display: block;
 }
+
+@media (max-width: 991px) {
+    .faq {
+        margin-top: 40px;
+    }
+
+    .faq .title {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .faq #faq-box {
+        gap: 15px;
+    }
+
+    .faq .accordion-item {
+        flex: 1 calc(100% - 15px);
+        max-width: 100%;
+        height: fit-content;
+        padding: 10px 20px;
+    }
+
+    .faq .accordion-item .accordion-header.active {
+        padding-bottom: 10px;
+    }
+
+    .faq .accordion-item .accordion-content {
+        padding-top: 10px;
+    }
+}

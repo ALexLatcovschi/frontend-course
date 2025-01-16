@@ -1,8 +1,8 @@
-# Redirect /ro
-/ro/*   /frontend-course/pages/ro/:splat   200
+# Redirect /ro to /ro/index.html
+/ro/*   /ro/index.html   200
 
-# Redirect /ru
-/ru/*   /frontend-course/pages/ru/:splat   200
+# Redirect /ru to /ru/index.html
+/ru/*   /ru/index.html   200
 
 # Redirect / to /ro
 /   /ro   301

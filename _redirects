@@ -1,8 +1,8 @@
-# Redirect /ro to /ro/index.html
-/ro/*   /ro/index.html   200
+# Redirect /ro to the Romanian page
+/ro/*   /pages/ro/index.html   200
 
-# Redirect /ru to /ru/index.html
-/ru/*   /ru/index.html   200
+# Redirect /ru to the Russian page
+/ru/*   /pages/ru/index.html   200
 
-# Redirect / to /ro
+# Redirect root (/) to /ro
 /   /ro   301

@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/ro/*"
+  to = "/frontend-course/pages/ro/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/ru/*"
+  to = "/frontend-course/pages/ru/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/"
+  to = "/ro"
+  status = 301

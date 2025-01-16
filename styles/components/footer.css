@@ -52,9 +52,6 @@ footer .social-share {
 }
 
 footer .social-share .label {
-    color: #FFFFFF;
-    font-size: 16px;
-    line-height: 20px;
     margin-right: 16px;
 }
 
@@ -76,9 +73,6 @@ footer .social-share .share:hover {
 }
 
 footer .copyright {
-    font-size: 14px;
-    line-height: 28px;
-    color: #ffffff80;
     text-align: center;
     margin-top: 48px;
     padding-bottom: 20px;

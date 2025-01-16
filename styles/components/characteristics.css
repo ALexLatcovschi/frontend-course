@@ -3,18 +3,11 @@
 }
 
 .characteristics .title {
-    font-size: 48px;
-    line-height: 80px;
-    color: #ffffff;
-    font-weight: bold;
     text-align: center;
     margin: auto;
 }
 
 .characteristics .subtitle {
-    font-size: 16px;
-    line-height: 28px;
-    color: #9E9E9E;
     text-align: center;
     margin: auto auto 40px;
     max-width: 570px;
@@ -65,9 +58,6 @@
 }
 
 .characteristics .item .item-subtitle {
-    font-size: 16px;
-    line-height: 28px;
-    color: #9E9E9E;
     text-align: center;
     margin: auto;
 }

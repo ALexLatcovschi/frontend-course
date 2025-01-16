@@ -9,6 +9,7 @@
 @import url("components/try-now.css");
 @import url("components/faq.css");
 @import url("components/contact-form.css");
+@import url("components/loader.css");
 
 @keyframes MoveInCircleReversed {
     0% {
@@ -26,6 +27,10 @@
     100% {
         transform: translate(0, 0) rotate(-360deg);
     }
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -76,4 +81,43 @@ body {
     color: #ffffff;
     cursor: pointer;
     text-decoration: none;
+}
+
+.section-title {
+    font-size: 48px;
+    line-height: 80px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.section-text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #9E9E9E;
+}
+
+.primary-text {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+#main {
+    display: none;
+}
+
+#main.visible {
+    display: initial;
+}
+
+#loader {
+    display: initial;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#loader.hidden {
+    display: none;
 }

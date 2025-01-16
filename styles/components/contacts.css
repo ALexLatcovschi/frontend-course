@@ -22,17 +22,12 @@
 }
 
 .contacts .contacts-subtitle {
-    font-size: 16px;
-    line-height: 20px;
-    color: #ffffff;
     margin-bottom: 25px;
     max-width: 70%;
 }
 
 .contacts .details .contact {
-    font-size: 16px;
     line-height: 30px;
-    color: #ffffff;
     margin-bottom: 15px;
 }
 

@@ -4,7 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styles/main.css">
-    <title>Modular Website</title>
+    <title>Curs de Construire Site-uri - HTML, CSS, JS</title>
+    <meta name="title" content="Curs de Construire Site-uri - HTML, CSS, JS">
+    <meta name="description"
+          content="Învățați cum să construiți site-uri web profesionale de la zero, folosind HTML, CSS și JavaScript. Curs ideal pentru începători și avansați.">
+
+    <!-- SEO Meta Tags -->
+    <meta name="keywords"
+          content="curs construirea site-uri, HTML, CSS, JavaScript, învățare web development, curs web design">
+    <meta name="author" content="Naqqa">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Romanian">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://eduqqation.com">
+    <meta property="og:title" content="Curs de Construire Site-uri - HTML, CSS, JS">
+    <meta property="og:description"
+          content="Învață să construiești site-uri web profesionale cu HTML, CSS și JavaScript.">
+    <meta property="og:image" content="/assets/images/meta/meta.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://eduqqation.com">
+    <meta property="twitter:title" content="Curs de Construire Site-uri - HTML, CSS, JS">
+    <meta property="twitter:description"
+          content="Învață să construiești site-uri web profesionale cu HTML, CSS și JavaScript.">
+    <meta property="twitter:image" content="/assets/images/meta/meta.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +53,7 @@
 </head>
 <body>
 
+<div id="loader" class="hidden"></div>
 <div id="main"></div>
 
 </body>
@@ -37,7 +64,8 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+<link rel="stylesheet" type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 
 <script>
@@ -78,4 +106,10 @@
 </script>
 
 <script src="/scripts/contact-form.js"></script>
+
+<script>
+    setTimeout(() => {
+        document.getElementById('loader')?.classList.remove('hidden');
+    }, 30)
+</script>
 </html>

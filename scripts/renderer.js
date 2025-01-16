@@ -35,5 +35,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     await initTranslation();
 
-    loadMap()
+    setTimeout(() => {
+        document.getElementById('loader')?.classList.add('hidden');
+        document.getElementById('main')?.classList.add('visible');
+
+        loadMap();
+    }, 100);
 });

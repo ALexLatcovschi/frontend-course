@@ -11,18 +11,12 @@
 
 .expertise .right-child .title {
     padding-left: 90px;
-    font-size: 48px;
     line-height: 64px;
-    color: #ffffff;
-    font-weight: bold;
     max-width: 480px;
 }
 
 .expertise .right-child .subtitle {
     padding-left: 90px;
-    font-size: 16px;
-    line-height: 28px;
-    color: #9E9E9E;
     margin-top: 10px;
     max-width: 480px;
 }

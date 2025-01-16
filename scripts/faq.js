@@ -33,14 +33,14 @@ function renderFAQ() {
             return `
                         <div class="accordion-item">
                             <div class="accordion-header">
-                                <div class="accordion-title" data-key="${element.label}"></div>
+                                <div class="accordion-title primary-text" data-key="${element.label}"></div>
                                 
                                 <img src="/assets/images/accordion/plus.png" class="hidden"/>
                                 <img src="/assets/images/accordion/minus.png" class="expanded"/>
                             </div>
                             
                             <div class="content-inner">
-                                <div class="accordion-content" data-key="${element.answer}"></div>
+                                <div class="accordion-content section-text" data-key="${element.answer}"></div>
                             </div>
                         </div>
             `;

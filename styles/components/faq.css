@@ -4,10 +4,6 @@
 
 .faq .title {
     margin-bottom: 60px;
-    font-size: 50px;
-    line-height: 65px;
-    color: #ffffff;
-    font-weight: bold;
     text-align: center;
 }
 
@@ -33,12 +29,6 @@
     align-items: center;
 }
 
-.faq .accordion-item .accordion-header .accordion-title {
-    font-size: 16px;
-    line-height: 20px;
-    color: #ffffff;
-}
-
 .faq .accordion-item .expanded {
     display: none;
 }
@@ -51,9 +41,6 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
-    font-size: 14px;
-    line-height: 20px;
-    color: #FFFFFF80;
 }
 
 .faq .accordion-item .content-inner {

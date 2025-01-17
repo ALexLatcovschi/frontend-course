@@ -55,3 +55,9 @@
 ## Lesson 11
 - Responsive Design - https://www.w3schools.com/css/css_rwd_intro.asp
 - Marimi Device - https://www.browserstack.com/guide/common-screen-resolutions
+
+## Lesson 12
+- Netlify - https://docs.netlify.com/
+- Netlify _redirects - https://docs.netlify.com/routing/redirects/
+- Cumpara Domain - https://www.godaddy.com/en-ie
+- Ce este DNS - https://www.cloudflare.com/learning/dns/what-is-dns/

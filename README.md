@@ -18,6 +18,7 @@
 - What is JSON - https://www.w3schools.com/whatis/whatis_json.asp
 - JS functions - https://www.w3schools.com/js/js_functions.asp
 - JS async functions - https://www.w3schools.com/js/js_async.asp
+- Local Storage si Session Storage - https://www.digitalocean.com/community/tutorials/js-introduction-localstorage-sessionstorage
 
 ## Lesson 3
 - FlexBox si GridBox - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods

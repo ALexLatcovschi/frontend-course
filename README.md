@@ -22,3 +22,6 @@
 
 ## Lesson 3
 - FlexBox si GridBox - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods
+
+## Lesson 4
+- Animatii CSS - https://www.w3schools.com/css/css3_animations.asp

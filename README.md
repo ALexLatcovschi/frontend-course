@@ -18,3 +18,4 @@
 - What is JSON - https://www.w3schools.com/whatis/whatis_json.asp
 - JS functions - https://www.w3schools.com/js/js_functions.asp
 - JS async functions - https://www.w3schools.com/js/js_async.asp
+- Local Storage si Session Storage - https://www.digitalocean.com/community/tutorials/js-introduction-localstorage-sessionstorage

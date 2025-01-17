@@ -28,3 +28,7 @@
 
 ## Lesson 5
 - Slider - https://swiperjs.com/get-started#initialize-swiper
+
+## Lesson 6
+- Harta - https://leafletjs.com/
+- HTML telefon si email - https://www.geeksforgeeks.org/how-to-create-mail-and-phone-link-in-html/

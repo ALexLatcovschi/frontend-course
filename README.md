@@ -32,3 +32,6 @@
 ## Lesson 6
 - Harta - https://leafletjs.com/
 - HTML telefon si email - https://www.geeksforgeeks.org/how-to-create-mail-and-phone-link-in-html/
+
+## Lesson 7
+- Accordion - https://www.w3schools.com/howto/howto_js_accordion.asp

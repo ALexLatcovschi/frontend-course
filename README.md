@@ -25,3 +25,6 @@
 
 ## Lesson 4
 - Animatii CSS - https://www.w3schools.com/css/css3_animations.asp
+
+## Lesson 5
+- Slider - https://swiperjs.com/get-started#initialize-swiper

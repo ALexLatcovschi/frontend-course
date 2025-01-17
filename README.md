@@ -39,3 +39,9 @@
 ## Lesson 8
 - Input HTML - https://www.w3schools.com/tags/tag_input.asp
 - Forma JS - https://www.w3schools.com/js/js_validation.asp
+
+## Lesson 9
+- Ce este Firebase - https://firebase.google.com/docs/build
+- Realtime DataBase - https://firebase.google.com/docs/database
+- Salvare date formular in firebase - https://firebase.google.com/docs/database/admin/save-data
+- Toastr - https://github.com/CodeSeven/toastr

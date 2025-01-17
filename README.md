@@ -45,3 +45,9 @@
 - Realtime DataBase - https://firebase.google.com/docs/database
 - Salvare date formular in firebase - https://firebase.google.com/docs/database/admin/save-data
 - Toastr - https://github.com/CodeSeven/toastr
+
+## Lesson 10
+- Meta Tag-uri - https://www.w3schools.com/tags/tag_meta.asp
+- Marime Meta Imagine - https://community.typeform.com/share-your-typeform-6/what-is-the-size-needed-for-the-picture-in-the-meta-preview-2360#:~:text=The%20most%20frequently%20recommended%20resolution,exceed%20the%205MB%20size%20limit.
+- HTML anchor - https://www.w3schools.com/tags/tag_a.asp
+- Loadere CSS - https://cssloaders.github.io/

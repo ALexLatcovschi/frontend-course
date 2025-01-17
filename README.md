@@ -51,3 +51,7 @@
 - Marime Meta Imagine - https://community.typeform.com/share-your-typeform-6/what-is-the-size-needed-for-the-picture-in-the-meta-preview-2360#:~:text=The%20most%20frequently%20recommended%20resolution,exceed%20the%205MB%20size%20limit.
 - HTML anchor - https://www.w3schools.com/tags/tag_a.asp
 - Loadere CSS - https://cssloaders.github.io/
+
+## Lesson 11
+- Responsive Design - https://www.w3schools.com/css/css_rwd_intro.asp
+- Marimi Device - https://www.browserstack.com/guide/common-screen-resolutions
